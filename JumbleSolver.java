@@ -20,10 +20,6 @@ public class JumbleSolver {
 		HashMap<String,String> lookup = new HashMap<String,String>();
 		
 		//iterate over our dict file and add it to our hash table
-		//note:  Maybe make it so it spits out ALL possible words?
-		//(e.g. the hash table should store all values that produce that hash (which of course
-		//should not alter dependent on order of the words) so "tab" and "bat" would be at the
-		//same key and tba may be a jumbled version of either)
 		while (sc.hasNextLine()) {
 			//our value to add to the map
 			String value = sc.nextLine();
