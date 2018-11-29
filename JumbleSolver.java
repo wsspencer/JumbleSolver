@@ -1,3 +1,5 @@
+//Author: Scott Spencer
+
 import java.io.*;
 import java.util.*;
 
